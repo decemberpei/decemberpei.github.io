@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 关于我
+title: About Me
 permalink: /about/
 ---
 
-# 待完善
+# TBD
