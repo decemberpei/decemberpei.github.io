@@ -6,7 +6,8 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 # social links
 twitter_username: decemberpei
-github_username:  decemberpei
+facebook_username: decemberpei
+github_username: decemberpei
 
 # dribbble_username: jekyll
 # flickr_username: jekyll
