@@ -1,8 +1,8 @@
 title: decemberpei's blog
 author: decemberpei
 email: decemberpei@gmail.com
-#description: > # this means to ignore newlines until "twitter_username:"
-Seriously, I am the awesome description for this blog.
+description: > # this means to ignore newlines until "twitter_username:"
+  Seriously, I am the awesome description for this blog.
 
 # social links
 twitter_username: decemberpei
