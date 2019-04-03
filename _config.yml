@@ -1,12 +1,12 @@
 title: decemberpei's blog
-#author: decemberpei
-#email: decemberpei@gmail.com
+author: decemberpei
+email: decemberpei@gmail.com
 #description: > # this means to ignore newlines until "twitter_username:"
-# Seriously, I am the awesome description for this blog.
+Seriously, I am the awesome description for this blog.
 
 # social links
-#twitter_username: decemberpei
-#github_username: decemberpei
+twitter_username: decemberpei
+github_username: decemberpei
 
 # dribbble_username: jekyll
 # flickr_username: jekyll
@@ -32,8 +32,8 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.html
+header_pages:
+ - about.html
 
 # Build settings
 theme: minima
