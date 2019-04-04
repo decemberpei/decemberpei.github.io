@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# 下面是Aliyun托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络你懂的），说明如下：
+# 下面是阿里云托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络下载模型的话..你懂的），说明如下：
 1. 基于Docker官方的Ubuntu:16.04 build
 2. 安装了Openvino对应的release
 3. 编译了samples
@@ -10,7 +10,7 @@ layout: post
 6. Image已经配置好了CPU/GPU/NCS2，可以用这三种设备进行推理
 
 # Image使用方法：
-1. 从aliyun拉取Image：
+1. 从阿里云拉取Image：
 
 ```
 $ sudo docker pull registry.cn-qingdao.aliyuncs.com/openvino/workshop:[image_tag]
@@ -22,7 +22,7 @@ $ sudo docker pull registry.cn-qingdao.aliyuncs.com/openvino/workshop:[image_tag
 $ docker create --name [container_name] --net=host -it -e DISPLAY=$DISPLAY --privileged -v /dev:/dev registry.cn-qingdao.aliyuncs.com/openvino/workshop:[image_tag]
 ```
 
-3.给与docker访问主机display的权限(否则docker container无法输出图像到显示设备)：
+3.给与docker container访问主机display的权限(否则docker container里面的应用无法输出图像到显示设备)：
 
 ```
 $ xhost +local:docker
