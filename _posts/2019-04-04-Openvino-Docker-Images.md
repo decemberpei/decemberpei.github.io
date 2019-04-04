@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# 下面是给国内的小伙伴们参考的OpenVINO Docker镜像（主要帮大家下载好了模型）：
+# 下面是OpenVINO的Docker镜像，里面已经下载好所有的模型：
 1. 基于Docker官方的Ubuntu:16.04 build
 2. 安装了Openvino对应的release
 3. 编译了samples
