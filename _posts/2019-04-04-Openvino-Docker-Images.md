@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# 下面是阿里云托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络下载模型的话..你懂的），说明如下：
+## 下面是阿里云托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络下载模型的话..你懂的），说明如下：
 1. 基于Docker官方的Ubuntu:16.04 build
 2. 安装了Openvino对应的release
 3. 编译了samples
@@ -9,7 +9,7 @@ layout: post
 5. bashrc里设置好了openvino和mediasdk的环境变量
 6. Image已经配置好了CPU/GPU/NCS2，可以用这三种设备进行推理
 
-# Image使用方法：
+## Image使用方法：
 1. 从阿里云拉取Image：
 
 ```
@@ -36,7 +36,7 @@ $ docker attach [container_name]
 # 多按一次回车，此时以root身份进入container的shell
 ```
 
-# Image列表（建议用最新版本）
+## Image列表（建议用最新版本）
 
 OpenVINO版本|Image Tag|Docker地址
 ---|:--:|---:
