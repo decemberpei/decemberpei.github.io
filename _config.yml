@@ -2,7 +2,6 @@ title: Main Page
 author: decemberpei
 email: decemberpei@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  \ 
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
