@@ -7,7 +7,7 @@ layout: post
 3. 编译了samples
 4. 下载好了所有的模型（model_downloader.py --all）
 5. bashrc里设置好了openvino和mediasdk的环境变量
-6. Image本身支持CPU/GPU/NCS2
+6. Image已经配置好了CPU/GPU/NCS2，可以用这三种设备进行推理
 
 # Image使用方法：
 1. 从aliyun拉取Image：
