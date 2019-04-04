@@ -9,7 +9,7 @@ layout: post
 5. bashrc里设置好了openvino和mediasdk的环境变量
 6. Image已经配置好了CPU/GPU/NCS2，可以用这三种设备进行推理
 
-# Image使用方法：
+# 镜像使用方法：
 1. 从阿里云拉取Image：
 
 ```
@@ -36,7 +36,7 @@ $ docker attach [container_name]
 # 多按一次回车，此时以root身份进入container的shell
 ```
 
-# Image列表（建议用最新版本）
+# 镜像列表（建议用最新版本）
 
 OpenVINO版本|Image Tag|Docker地址
 ---|:--:|---:
