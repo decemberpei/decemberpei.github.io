@@ -40,7 +40,7 @@ $ docker attach [container_name]
 
 # 镜像列表（建议用最新版本）
 
-OpenVINO版本|Image Tag|Docker地址
+OpenVINO版本|Image Tag|Docker仓库地址
 ---|:--:|---:
 2019r1|2019r1|registry.cn-qingdao.aliyuncs.com/openvino/workshop:2019r1
 2018r5.0.1|2018r5.0.1|registry.cn-qingdao.aliyuncs.com/openvino/workshop:2018r5.0.1
