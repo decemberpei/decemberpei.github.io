@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-#下面是Aliyun托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络你懂的），说明如下：
+# 下面是Aliyun托管的Openvino Docker Image，给国内的小伙伴们参考（主要给大家下载好模型，国内网络你懂的），说明如下：
 1. 基于Docker官方的Ubuntu:16.04 build
 2. 安装了Openvino对应的release
 3. 编译了samples
@@ -9,7 +9,7 @@ layout: post
 5. bashrc里设置好了openvino和mediasdk的环境变量
 6. Image本身支持CPU/GPU/NCS2
 
-#Image使用方法：
+# Image使用方法：
 1. 从aliyun拉取Image：
 
 ```
