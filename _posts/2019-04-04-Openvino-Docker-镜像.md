@@ -36,7 +36,7 @@ $ docker attach [container_name]
 # 多按一次回车，此时以root身份进入container的shell
 ```
 
-如果对Docker不熟悉，可以参考[这里](https://github.com/decemberpei/OpenVINO-Docker-Howto)
+如果读者还没有安装Docker，可以参考[这里](https://docs.docker.com/install/linux/docker-ce/ubuntu/)的步骤安装
 
 # 镜像列表（建议用最新版本）
 
