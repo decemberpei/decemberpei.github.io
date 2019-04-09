@@ -7,7 +7,7 @@ layout: post
 3. 编译了samples
 4. 下载好了所有的模型（model_downloader.py --all）
 5. bashrc里设置好了openvino和mediasdk的环境变量
-6. 做好了CPU/GPU/NCS2的相关配置，创建container就可以用这三种设备进行推理
+6. 做好了CPU/GPU/NCS（2）的相关配置，创建container就可以用这三种设备进行推理
 
 # 镜像使用方法：
 1. 从阿里云拉取Image
